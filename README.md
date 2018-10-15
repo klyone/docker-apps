@@ -4,3 +4,5 @@ This project contains several Dockerfiles to build different apps in Docker cont
 
 - **kicad:** KiCAD EDA tool.
 - **eclipse-cpp:** Eclipse IDE for C/C++.
+- **openscad:** OpenSCAD tool.
+
