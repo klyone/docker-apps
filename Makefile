@@ -32,3 +32,6 @@ libreoffice:
 
 vlc:
 	docker build -t klyone/vlc -f vlc
+	
+audacity:
+	docker build -t klyone/audacity -f audacity
