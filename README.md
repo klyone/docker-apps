@@ -9,6 +9,11 @@ This project contains several Dockerfiles to build different apps in Docker cont
 - **texstudio:** Texstudio tool.
 - **freecad:** FreeCAD EDA tool.
 - **scilab:** scilab tool.
+- **inkscape:** Inkscape tool.
+- **gimp:** Gimp tool.
+- **libreoffice:** LibreOffice suite.
+- **vlc:** VLC tool.
+- **audacity:** Audacity tool.
 
 # Issues
 

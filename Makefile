@@ -1,4 +1,4 @@
-all: kicad octave eclipse-cpp openscad texstudio freecad scilab inkscape gimp libreoffice
+all: kicad octave eclipse-cpp openscad texstudio freecad scilab inkscape gimp libreoffice vlc audacity
 
 kicad:
 	docker build -t klyone/kicad -f kicad
