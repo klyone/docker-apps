@@ -1,4 +1,4 @@
-all: kicad octave eclipse-cpp openscad texstudio freecad scilab inkscape gimp libreoffice vlc audacity
+all: kicad octave eclipse-cpp openscad texstudio freecad scilab inkscape gimp libreoffice vlc audacity openshot
 
 kicad:
 	docker build -t klyone/kicad -f kicad
@@ -35,3 +35,6 @@ vlc:
 	
 audacity:
 	docker build -t klyone/audacity -f audacity
+
+openshot:
+	docker build -t klyone/openshot -f openshot

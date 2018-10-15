@@ -14,6 +14,7 @@ This project contains several Dockerfiles to build different apps in Docker cont
 - **libreoffice:** LibreOffice suite.
 - **vlc:** VLC tool.
 - **audacity:** Audacity tool.
+- **openshot:** Openshot tool.
 
 # Issues
 
