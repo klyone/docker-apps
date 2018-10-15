@@ -29,3 +29,6 @@ gimp:
 	
 libreoffice:
 	docker build -t klyone/libreoffice -f libreoffice
+
+vlc:
+	docker build -t klyone/vlc -f vlc
