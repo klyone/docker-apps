@@ -20,3 +20,7 @@ freecad:
 
 scilab:
 	docker build -t klyone/scilab -f scilab
+	
+inkscape:
+	docker build -t klyone/inkscape -f inkscape
+
