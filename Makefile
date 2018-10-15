@@ -17,3 +17,6 @@ texstudio:
 	
 freecad:
 	docker build -t klyone/freecad -f freecad
+
+scilab:
+	docker build -t klyone/scilab -f scilab

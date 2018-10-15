@@ -8,12 +8,16 @@ This project contains several Dockerfiles to build different apps in Docker cont
 - **openscad:** OpenSCAD tool.
 - **texstudio:** Texstudio tool.
 - **freecad:** FreeCAD EDA tool.
+- **scilab:** scilab tool.
 
 # Issues
 
 The **freecad** docker container requires a specific configuration when it is created:
 
-`docker run -ti --rm --name FreeCAD --net=host -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix -v $HOME/.Xauthority:/root/.Xauthority -v $HOME/freecad-workspace:/mnt -w /mnt klyone/freecad`
+`docker run -it --rm --name FreeCAD --net=host -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix -v $HOME/.Xauthority:/root/.Xauthority -v $HOME/freecad-workspace:/mnt -w /mnt klyone/freecad`
 
 **Thanks to:** https://hub.docker.com/r/izone/freecad/
 
+The **scilab** docker container must be started with the `-it` options not to close the main window.
+
+`docker run -it --name scilab -e DISPLAY=$DISPLAY -v /tmp/.X11-unix klyone/scilab`
