@@ -24,3 +24,6 @@ scilab:
 inkscape:
 	docker build -t klyone/inkscape -f inkscape
 
+gimp:
+	docker build -t klyone/gimp -f gimp
+	
