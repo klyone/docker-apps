@@ -14,3 +14,6 @@ openscad:
 	
 texstudio:
 	docker build -t klyone/texstudio -f texstudio
+	
+freecad:
+	docker build -t klyone/freecad -f freecad
