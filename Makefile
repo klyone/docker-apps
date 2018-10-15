@@ -1,4 +1,4 @@
-all: kicad octave eclipse-cpp openscad texstudio freecad scilab inkscape gimp libreoffice vlc audacity openshot
+all: kicad octave eclipse-cpp openscad texstudio freecad scilab inkscape gimp libreoffice vlc audacity openshot mendeley
 
 kicad:
 	docker build -t klyone/kicad -f kicad
@@ -38,3 +38,6 @@ audacity:
 
 openshot:
 	docker build -t klyone/openshot -f openshot
+
+mendeley:
+	docker build -t klyone/mendeley -f mendeley

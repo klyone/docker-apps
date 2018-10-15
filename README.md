@@ -15,6 +15,7 @@ This project contains several Dockerfiles to build different apps in Docker cont
 - **vlc:** VLC tool.
 - **audacity:** Audacity tool.
 - **openshot:** Openshot tool.
+- **mendeley:** Mendeley Desktop tool.
 
 # Issues
 
