@@ -1,4 +1,4 @@
-all: kicad octave eclipse-cpp openscad
+all: kicad octave eclipse-cpp openscad texstudio
 
 kicad:
 	docker build -t klyone/kicad -f kicad
@@ -11,3 +11,6 @@ eclipse-cpp:
 	
 openscad:
 	docker build -t klyone/openscad -f openscad
+	
+texstudio:
+	docker build -t klyone/texstudio -f texstudio
