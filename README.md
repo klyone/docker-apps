@@ -16,6 +16,7 @@ This project contains several Dockerfiles to build different apps in Docker cont
 - **audacity:** Audacity tool.
 - **openshot:** Openshot tool.
 - **mendeley:** Mendeley Desktop tool.
+- **masterpdf:** MasterPDF tool.
 
 # Issues
 

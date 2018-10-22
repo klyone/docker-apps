@@ -1,4 +1,4 @@
-all: kicad octave eclipse-cpp openscad texstudio freecad scilab inkscape gimp libreoffice vlc audacity openshot mendeley
+all: kicad octave eclipse-cpp openscad texstudio freecad scilab inkscape gimp libreoffice vlc audacity openshot mendeley masterpdf
 
 kicad:
 	docker build -t klyone/kicad -f kicad
@@ -41,3 +41,6 @@ openshot:
 
 mendeley:
 	docker build -t klyone/mendeley -f mendeley
+
+masterpdf:
+	docker build -t klyone/masterpdf -f masterpdf
