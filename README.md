@@ -17,6 +17,7 @@ This project contains several Dockerfiles to build different apps in Docker cont
 - **openshot:** Openshot tool.
 - **mendeley:** Mendeley Desktop tool.
 - **masterpdf:** MasterPDF tool.
+- **franz:** Franz tool.
 
 # Issues
 
