@@ -16,4 +16,4 @@ RUN adduser --disabled-password --gecos '' mendeley
 USER mendeley
 WORKDIR /home/mendeley
 
-CMD ["mendeleydesktop"]
+CMD ["/bin/bash","-c","export QT_XKB_CONFIG_ROOT=/usr/share/X11/xkb && mendeleydesktop"]
